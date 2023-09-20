@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Logical_operator from "./components/Logical_operator";
+import Profile from "./components/Profile";
 
 function App() {
   return (
-    <div className="App">
-  <h1>Hello welcome to React Learning</h1>
+    <div className="container">
+      <h1>Hello welcome to React Learning</h1>
+      <Profile />
+      <Logical_operator />
     </div>
   );
 }
